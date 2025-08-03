@@ -80,6 +80,7 @@ public class ECommerceApiTest {
 		JsonPath js1=new JsonPath(deleteProductResponse);
 		
 		Assert.assertEquals("Product Deleted Successfully", js1.get("message"));
+		System.out.println("message");
 		
 		
 	}
