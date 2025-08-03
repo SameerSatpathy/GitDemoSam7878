@@ -43,6 +43,7 @@ public class Basics {
 		String actualAddress= js1.getString("address");
 		System.out.println(actualAddress);
 		Assert.assertEquals(actualAddress,newAddress);
+		System.out.println(newAddress);
 		
 		//CucumberJunit, Testng
 		
